@@ -1,0 +1,566 @@
+/*
+Theme Name: Custom theme for Tater Tots Daycare
+Theme URI: http://tatertotsdaycare.ca
+Description: A custom theme designed for Tater Tots Daycare.
+Author: Thomas J Bradley
+Author URI: http://thomasjbradley.ca
+Version: 1.0.0
+Tags: green, beige, kids, fun
+*/
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	background: #f2f6e9 none repeat left top;
+
+	color: #555;
+	font: normal 100%/1.375 Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background: transparent url("images/bg.jpg") no-repeat center top;
+}
+
+header,
+footer,
+section,
+figure,
+figcaption
+aside,
+nav {
+	display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+}
+
+h2 {
+	margin: 0 0 1em 0;
+	padding: 0;
+
+	color: #799f2b;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+
+	font-size: 1em;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1.375em 0;
+	padding: 0;
+}
+
+a,
+a:link {
+	border-bottom: 0.1em solid #3f7492;
+	-webkit-transition: color 0.1s;
+
+	color: #3f7492;
+	text-decoration: none;
+}
+
+a:visited {
+	border-bottom: 0.1em solid #4b6a7c;
+
+	color: #4b6a7c;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	border-bottom: 0.1em solid #2e48bd;
+
+	color: #2e48bd;
+	text-decoration: none;
+}
+
+blockquote {
+	margin: 0 0 0.5em 1em;
+	padding: 0.5em 0 0 0.6em;
+
+	background: transparent url("images/quote.png") no-repeat left top;
+
+	color: #799f2b;
+	font: normal 1.5em/1.375 Futura,"Trebuchet MS",Arial,sans-serif;
+}
+
+blockquote p {
+	margin: 0;
+	padding: 0;
+}
+
+blockquote cite {
+	display: block;
+	margin: 0.6875em 0 0;
+	padding: 0;
+
+	color: #777;
+	font-style: normal;
+	font-weight: normal;
+	text-align: right;
+}
+
+blockquote cite em {
+	display: block;
+
+	font-style: normal;
+}
+
+blockquote p.read {
+	font-size: 0.875em;
+	font-weight: normal;
+	text-align: right;
+}
+
+span[title="and"] {
+	font: italic normal 1em "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+}
+
+.content {
+	margin: 368px auto 0;
+	padding: 0;
+	width: 980px;
+}
+
+[role="main"] {
+	margin: 0;
+	padding: 1.375em 0;
+
+	background: -moz-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(30%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(top, #fff 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%);
+}
+
+.grid-group {
+	clear: both;
+	margin: 0 0 0 -1px;
+	padding: 0;
+	width: 981px;
+}
+
+.grid-item .grid-group {
+	margin: 0 -16px 0 -17px;
+}
+
+.grid-item {
+	display: inline;
+	float: left;
+	margin: 0 0 0 1px;
+	padding: 0 16px;
+	width: 294px;
+}
+
+.grid-2 {
+	width: 621px;
+}
+
+.grid-3 {
+	width: 948px;
+}
+
+[role="banner"] {
+	margin: 0 auto;
+	padding: 2px 12px 4px;
+	position: relative;
+	width: 956px;
+
+	background-color: #fff;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(70%, #fff), color-stop(100%, #fff));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+	background: linear-gradient(top, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+[role="navigation"] {
+	bottom: 12px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+}
+
+[role="navigation"] ul {
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+[role="navigation"] li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+[role="navigation"] a,
+[role="navigation"] a:link,
+[role="navigation"] a:visited {
+	display: inline-block;
+	margin: 0;
+	padding: 0.3em 0.6em 0.45em;
+
+	border: 0;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+	-moz-transition: background-color 0.1s linear;
+	-ms-transition: background-color 0.1s linear;
+	-o-transition: background-color 0.1s linear;
+	-webkit-transition: background-color 0.1s linear;
+	transition: background-color 0.1s linear;
+
+	color: #9db271;
+	font: normal 100.01%/1.375 Futura,"Trebuchet MS",Arial,sans-serif;
+}
+
+[role="navigation"] a:hover,
+[role="navigation"] a:focus,
+[role="navigation"] a:active,
+[role="navigation"] .current-menu-item a,
+[role="navigation"] .current-menu-item a:link,
+[role="navigation"] .current-menu-item a:visited {
+	background-color: #9db271;
+
+	color: #fff;
+}
+
+#logo {
+	margin: 0;
+	padding: 0;
+}
+
+#logo a,
+#logo a:link,
+#logo a:visited {
+	display: block;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	width: 124px;
+
+	border: 0;
+
+	color: #799f2b;
+	font: normal 100.01%/1 Futura,"Trebuchet MS",Arial,sans-serif;
+	text-decoration: none;
+}
+
+.nav-tabs {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-tabs ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.nav-tabs li {
+	display: inline;
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 0;
+	width: 326px;
+
+	text-align: center;
+}
+
+.nav-tabs li:last-child {
+	margin-right: 0;
+}
+
+.nav-tabs a,
+.nav-tabs a:link,
+.nav-tabs a:visited {
+	display: block;
+	margin: 0;
+	padding: 0.6em 0 0.7em;
+
+	background-color: #799f2b;
+	background: -moz-linear-gradient(top, #799f2b, #648128);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #799f2b), color-stop(100%, #648128));
+	background: -webkit-linear-gradient(top, #799f2b, #648128);
+	background: -o-linear-gradient(top, #799f2b, #648128);
+	background: -ms-linear-gradient(top, #799f2b, #648128);
+	background: linear-gradient(top, #799f2b, #648128);
+	border: 0;
+	border-left: 1px solid #8ebd27;
+	border-top: 1px solid #8ebd27;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+
+	color: #fff;
+	font: normal 1.5em/1 Futura,"Trebuchet MS",Arial,sans-serif;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 1px #4e661d;
+}
+
+.nav-tabs a:hover,
+.nav-tabs a:focus,
+.nav-tabs a:active {
+	background-color: #8ebd27;
+	background: -moz-linear-gradient(top, #8ebd27, #799f2b);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8ebd27), color-stop(100%, #799f2b));
+	background: -webkit-linear-gradient(top, #8ebd27, #799f2b);
+	background: -o-linear-gradient(top, #8ebd27, #799f2b);
+	background: -ms-linear-gradient(top, #8ebd27, #799f2b);
+	background: linear-gradient(top, #8ebd27, #799f2b);
+	border-color: #9cce30;
+
+	color: #fff;
+	text-shadow: -1px -1px 1px #648128;
+}
+
+[role="contentinfo"] {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 12px;
+	width: 956px;
+
+	background-color: #fff;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+
+	color: #999;
+	font-size: 0.75em;
+}
+
+.link-head {
+	margin-bottom: 1.375em;
+
+	border-bottom: 2px solid #bdcc9e;
+
+	color: #9db271;
+	font: normal 1em/1.375 Futura,"Trebuchet MS",Arial,sans-serif;
+	text-transform: uppercase;
+}
+
+.link-head a,
+.link-head a:link,
+.link-head a:visited {
+	display: block;
+	position: relative;
+	width: 100%;
+
+	border: 0;
+
+	color: #9db271;
+}
+
+.link-head a:hover,
+.link-head a:focus,
+.link-head a:active {
+	color: #799f2b;
+}
+
+.link-head a span.more,
+.link-head a:link span.more,
+.link-head a:visited span.more {
+	bottom: 0.2em;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	width: 16px;
+
+	background: transparent url("images/icons.png") no-repeat 0 0;
+}
+
+.link-head a:hover span.more,
+.link-head a:focus span.more,
+.link-head a:active span.more {
+	background-position: -16px 0;
+}
+
+.more {
+	margin-top: 1.375em;
+}
+
+.readmore {
+	margin-left: -0.4em;
+
+	font: normal 1em/1.375 Futura,"Trebuchet MS",Arial,sans-serif;
+}
+
+.readmore a,
+.readmore a:link,
+.readmore a:visited {
+	border: 0;
+}
+
+.readmore a:hover strong,
+.readmore a:focus strong,
+.readmore a:active strong {
+	background-color: #799f2b;
+	border-color: #799f2b;
+
+	color: #fff;
+}
+
+.readmore strong {
+	padding: 0.2em 0.4em 0.4em;
+
+	background-color: #eaf3d7;
+	border-bottom: 0.1em solid #3f7492;
+
+	font-weight: normal;
+}
+
+.news {
+	margin-top: 1.37em;
+}
+
+.news time {
+	display: block;
+	margin: 0.3em 0 1.3em;
+	padding: 0;
+
+	color: #999;
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+.feature-wrapper {
+	height: 350px;
+	margin: 0 -5px;
+	padding: 4px;
+	position: absolute;
+	top: 110px;
+	width: 980px;
+
+	background-color: #b5ca8c;
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid rgba(100,100,100,0.4);
+	border-left: 1px solid rgba(255,255,255,0.7);
+	border-top: 1px solid rgba(255,255,255,0.7);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.feature {
+	height: 350px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	background-color: #666;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.feature-item {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.feature-inner {
+	height: 350px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 980px;
+
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.feature-info {
+	display: block;
+	left: 0;
+	margin: 0;
+	padding: 0.8em 0.5em 0.5em 1em;
+	position: absolute;
+	top: 25px;
+	width: 17em;
+
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.7);
+	-moz-border-radius: 6px;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-radius: 6px;
+	-webkit-border-bottom-left-radius: 0;
+	border-radius: 6px;
+	border-bottom-left-radius: 0;
+
+	color: #666;
+	font: normal 1.2em/1.375 Futura,"Trebuchet MS",Arial,sans-serif;
+}
+
+.feature-item p {
+	margin-bottom: 0.5em;
+}
+
+.feature-item .readmore {
+	margin-left: 0;
+	padding: 0;
+}
+
+.feature-item a,
+.feature-item a:link,
+.feature-item a:visited {
+	display: inline;
+	margin: 0;
+	padding: 0;
+
+	border-bottom: 0.1em solid #799f2b;
+
+	color: #799f2b;
+}
