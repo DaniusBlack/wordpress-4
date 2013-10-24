@@ -1,8 +1,6 @@
 # WordPress
 
-**Resources for the Algonquin College Graphic Design program.**
-
-Quick overview of how to create a WordPress theme from start with a basic sample theme.
+Code samples, documentation, tutorials, & videos for the [Algonquin College Graphic Design](http://algonquindesign.ca) program.
 
 ## Tutorials
 
