@@ -6,11 +6,13 @@ WordPress uses an include system with files named very specificly to make up a t
 
 A theme is just a folder in the `wp-content/themes` folder with the required files.
 
-	wp-content/
-		themes/
-			your-theme/
-				index.php
-				style.css
+```
+wp-content/
+	themes/
+		your-theme/
+			index.php
+			style.css
+```
 
 - `index.php`—the file used to display content for the website.
 - `style.css`—the CSS, but also contains meta data about the theme.

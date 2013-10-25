@@ -10,14 +10,18 @@ Permalinks are an important part of WordPress. Permalinks are the way WordPress 
 
 By default, WordPress URLs are’t user or search engine friendly.
 
-	http://tatertotsdaycare.ca/?p=2
+```
+http://tatertotsdaycare.ca/?p=2
+```
 
 In the above example, `?p=2` is called a query string. This is how WordPress knows which page to display—it’s not helpful for users or search engines. What is page 2?
 
 By changing a setting in WordPress we can make the URLs, permalinks, more user friendly.
 
-	http://tatertotsdaycare.ca/about/
-	http://tatertotsdaycare.ca/2012/02/ground-hog-day-fun/
+```
+http://tatertotsdaycare.ca/about/
+http://tatertotsdaycare.ca/2012/02/ground-hog-day-fun/
+```
 
 The above URLs are much more user friendly and search engine friendly.
 

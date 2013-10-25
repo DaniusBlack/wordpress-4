@@ -3,99 +3,99 @@
 ## Security
 
 - Login Lockdown
-  <http://wordpress.org/extend/plugins/login-lockdown/>
+	<http://wordpress.org/extend/plugins/login-lockdown/>
 
 - Secure Wordpress
-  <http://wordpress.org/extend/plugins/secure-wordpress/>
+	<http://wordpress.org/extend/plugins/secure-wordpress/>
 
 - WP Security Scan
-  <http://wordpress.org/extend/plugins/wp-security-scan/>
+	<http://wordpress.org/extend/plugins/wp-security-scan/>
 
 - Omni Secure Files
-  <http://wordpress.org/extend/plugins/omni-secure-files/>
+	<http://wordpress.org/extend/plugins/omni-secure-files/>
 
 ## Backup
 
 - BackupBuddy
-  <http://ithemes.com/purchase/backupbuddy/>
+	<http://ithemes.com/purchase/backupbuddy/>
 
 - WP-DB-Backup
-  <http://wordpress.org/extend/plugins/wp-db-backup/>
+	<http://wordpress.org/extend/plugins/wp-db-backup/>
 
 - WP-DB-Manager
-  <http://wordpress.org/extend/plugins/wp-dbmanager/>
+	<http://wordpress.org/extend/plugins/wp-dbmanager/>
 
 ## Theming
 
 - WPML
-  <http://wordpress.org/extend/plugins/sitepress-multilingual-cms/>
+	<http://wordpress.org/extend/plugins/sitepress-multilingual-cms/>
 
 - Members
-  <http://wordpress.org/extend/plugins/members/>
+	<http://wordpress.org/extend/plugins/members/>
 
 - Theme My Login
-  <http://wordpress.org/extend/plugins/theme-my-login/>
+	<http://wordpress.org/extend/plugins/theme-my-login/>
 
 ## Media
 
 - WP Smush.it
-  <http://wordpress.org/extend/plugins/wp-smushit/>
+	<http://wordpress.org/extend/plugins/wp-smushit/>
 
 - Unattach
-  <http://wordpress.org/extend/plugins/unattach/>
+	<http://wordpress.org/extend/plugins/unattach/>
 
 - Shiba Media Library
-  <http://shibashake.com/wordpress-theme/media-library-plus-plugin>
+	<http://shibashake.com/wordpress-theme/media-library-plus-plugin>
 
 ## Forms & Fields
 
 - Gravity Forms
-  <http://www.gravityforms.com/>
+	<http://www.gravityforms.com/>
 
 - Advanced Custom Fields
-  <http://wordpress.org/extend/plugins/advanced-custom-fields/>
+	<http://wordpress.org/extend/plugins/advanced-custom-fields/>
 
 - More Types
-  <http://wordpress.org/extend/plugins/more-types/>
+	<http://wordpress.org/extend/plugins/more-types/>
 
 - More Fields
-  <http://wordpress.org/extend/plugins/more-fields/>
+	<http://wordpress.org/extend/plugins/more-fields/>
 
 - CForms
-  <http://www.deliciousdays.com/cforms-plugin/>
+	<http://www.deliciousdays.com/cforms-plugin/>
 
 - Cimy User Extra Fields
-  <http://wordpress.org/extend/plugins/cimy-user-extra-fields/>
+	<http://wordpress.org/extend/plugins/cimy-user-extra-fields/>
 
 ## Performance
 
 - W3 Total Cache
-  <http://wordpress.org/extend/plugins/w3-total-cache/>
+	<http://wordpress.org/extend/plugins/w3-total-cache/>
 
 - WP-Optimize
-  <http://wordpress.org/extend/plugins/wp-optimize/>
+	<http://wordpress.org/extend/plugins/wp-optimize/>
 
 ## SEO & Analytics
 
 - WordPress SEO by Yoast
-  <http://wordpress.org/extend/plugins/wordpress-seo/>
+	<http://wordpress.org/extend/plugins/wordpress-seo/>
 
 - Google Analyticator
-  <http://wordpress.org/extend/plugins/google-analyticator/>
+	<http://wordpress.org/extend/plugins/google-analyticator/>
 
 - Quick Redirect
-  <http://wordpress.org/extend/plugins/quick-pagepost-redirect-plugin/>
+	<http://wordpress.org/extend/plugins/quick-pagepost-redirect-plugin/>
 
 ## Misc.
 
 - Jetpack
-  <http://jetpack.me/>
+	<http://jetpack.me/>
 
 - Developer
-  <http://vip.wordpress.com/2012/06/27/developer-plugin-v1-0/>
+	<http://vip.wordpress.com/2012/06/27/developer-plugin-v1-0/>
 
 - Search & Replace
-  <http://interconnectit.com/124/search-and-replace-for-wordpress-databases/>
+	<http://interconnectit.com/124/search-and-replace-for-wordpress-databases/>
 
 - Uploads by Proxy
-  <http://wordpress.org/extend/plugins/uploads-by-proxy/>
+	<http://wordpress.org/extend/plugins/uploads-by-proxy/>

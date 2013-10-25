@@ -2,9 +2,11 @@
 
 WordPress allows users and clients to upload images, PDFs, documents, videos, and more. When any media is uploaded WordPress stores it in a specific location: the `uploads` folder.
 
-	wordpress/
-		wp-content/
-			uploads/
+```
+wordpress/
+	wp-content/
+		uploads/
+```
 
 WordPress will automatically organize the uploads folder and generate different sizes for the image: a thumbnail, a medium size, and the original size.
 

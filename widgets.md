@@ -47,11 +47,13 @@ Widgets are reusable modules, but require us to use PHP classes to hook into Wor
 
 It’s often best to organize your widgets because they can take a few files. If your widgets get really complex consider creating your own plugin.
 
-	wordpress/
-		wp-content/
-			themes/
-				your-theme/
-					widgets/
+```
+wordpress/
+	wp-content/
+		themes/
+			your-theme/
+				widgets/
+```
 
 Putting the widget files in a `widgets` directory is a great way to organize them.
 

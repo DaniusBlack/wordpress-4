@@ -1,7 +1,7 @@
 <?php
 	get_header();
 	the_post(); // Initialize the connection to the database
-	
+
 	// Everything in WordPress is considered a post:
 	//  links, comments, pages, media, etc.
 	// We can use `get_posts()` to pull out posts of any type
