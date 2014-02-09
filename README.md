@@ -28,8 +28,6 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 
 - [Digging into WordPress](http://digwp.com/book/)
 - [Build Your Own Wicked Wordpress Themes](http://www.amazon.ca/dp/0980455294/)
-- [Rockstar WordPress Designer](http://rockablepress.com/books/rockstar-wordpress-designer/)
-- [Rockstar WordPress Designer 2](http://rockablepress.com/books/rockstar-wordpress-designer-2/)
 
 ## Tutorials
 
