@@ -90,7 +90,7 @@ Every WordPress page and post can have a featured image (or post thumbnail). But
 ```php
 add_theme_support('post-thumbnails');
 
-// Optionally the image size and be specified
+// Optionally, the image size can be specified
 set_post_thumbnail_size(380, 253, true);
 add_image_size('feature-image', 380, 253, true);
 ```
@@ -112,16 +112,14 @@ The above function will output a complete image tag and possibly a link. If youâ
 
 ```html+php
 <img src="<?= wp_get_attachment_url(get_post_thumbnail_id($post->ID)) ?>" class="" alt="">
-<!--
-`wp_get_attachment_image_src()` is useful if you want a specific image size
--->
+<!-- `wp_get_attachment_image_src()` is useful if you want a specific image size -->
 ```
 
 If you want more details about the image, just treat it like a post:
 
 ```php
-	$img = get_post(get_post_thumbnail_id($post->ID));
-	$img->post_title; // Could be used for the alt attribute
+$img = get_post(get_post_thumbnail_id($post->ID));
+$img->post_title; // Could be used for the alt attribute
 ```
 
 ---
