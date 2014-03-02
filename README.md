@@ -10,7 +10,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 4. [Menus](menus.md)
 5. [Media](media.md)
 6. [Widgets](widgets.md)
-7. [Helpful Plugins](helpful-plugins.md)
+7. [Helpful Plugins](https://github.com/thomasjbradley/wp-theme-starter/blob/master/plugins/PLUGINS.md)
 
 ## WordPress Documentation
 
