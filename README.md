@@ -11,6 +11,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 5. [Media](media.md)
 6. [Widgets](widgets.md)
 7. [Helpful Plugins](https://github.com/thomasjbradley/wp-theme-starter/blob/master/plugins/PLUGINS.md)
+8. [Custom Post Types](custom-post-types.md)
 
 ## WordPress Documentation
 
