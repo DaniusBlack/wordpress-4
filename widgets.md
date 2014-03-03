@@ -110,7 +110,7 @@ Even though we have organized our widgets for ourselves, WordPress doesn’t mag
 We register our widget inside our `functions.php` file.
 
 ```php
-	include 'widgets/basic-widget.php';
+include 'widgets/basic-widget.php';
 ```
 
 All we have to do is include the PHP class file for our widget. If you look at the last line of the `basic-widget.php` file, you’ll notice the function call `register_widget()`. This is doing all the work but it’s best to keep it organized with your widget code.
