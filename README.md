@@ -43,6 +43,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 
 ## Other
 
+- **<http://generatewp.com/>**
 - <http://wp-snippets.com/>
 - <http://wordpress.stackexchange.com/>
 
