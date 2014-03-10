@@ -16,20 +16,17 @@ Sidebars are the placeholders where widgets can be placed.
 For us to use and create widgets we must first register a sidebar. Open up your `functions.php` file and add some code.
 
 ```php
-register_sidebars(1, array(
+register_sidebar([
 	'id' => 'basicbar'
 	, 'name' => 'Basic Sidebar'
 	, 'before_widget' => ''
 	, 'after_widget' => ''
-));
+]);
 ```
 
-Even though the function above is called `register_sidebars()`, *plural*, due to limitations in WordPress we can only register one at a time if we want them to have unique names.
-
-1. `1`—indicates we want to register a single sidebar
-2. `id`—a reference for us, the developers
-3. `name`—what will be displayed in WP-Admin to our clients
-4. `before_widget` & `after_widget`—WordPress likes to write out extra HTML that often we don’t need, so we ditch it.
+1. `id`—a reference for us, the developers
+2. `name`—what will be displayed in WP-Admin to our clients
+3. `before_widget` & `after_widget`—WordPress likes to write out extra HTML that often we don’t need, so we ditch it.
 
 After registering a sidebar we can now place widgets into them. A widget is really just a chunk of HTML, you’ll likely have to use your mad CSS skills to style it.
 
