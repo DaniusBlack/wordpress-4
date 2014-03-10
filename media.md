@@ -41,11 +41,11 @@ WordPress considers everything a ‘post’: whether it’s a post, a page, a li
 ```php
 the_post();
 
-$files = get_posts(array(
+$files = get_posts([
 	'post_type' => 'attachment'
 	, 'numberposts' => -1
 	, 'post_parent' => $post->ID
-));
+]);
 ```
 
 The `$files` variable is an array containing all the information about each file attached to the current post. You can loop over all them or display just one.

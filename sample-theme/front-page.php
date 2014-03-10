@@ -5,20 +5,20 @@
 	// Everything in WordPress is considered a post:
 	//  links, comments, pages, media, etc.
 	// We can use `get_posts()` to pull out posts of any type
-	$files = get_posts(array(
+	$files = get_posts([
 		'numberposts' => 1
 		, 'post_type' => 'attachment'
 		, 'post_parent' => $post->ID
-	));
+	]);
 ?>
 
 <nav class="nav-tabs">
 	<?php
-		wp_nav_menu(array(
+		wp_nav_menu([
 			'theme_location' => 'tabs'
 			, 'container' => ''
 			, 'menu_class' => ''
-		));
+		]);
 	?>
 </nav>
 
@@ -51,6 +51,4 @@
 	</div>
 </div>
 
-<?php
-	get_footer();
-?>
+<?php get_footer(); ?>

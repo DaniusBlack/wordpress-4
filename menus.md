@@ -14,12 +14,10 @@ WordPress uses two distinct components to make up a single navigation item.
 The first step to setting up menus for your theme is registering a placeholder. Open up your `functions.php` file.
 
 ```php
-register_nav_menus(
-	array(
-		// ID => WP Admin String
-		'primary' => 'Primary Navigation'
-	)
-);
+register_nav_menus([
+	// ID => WP Admin String
+	'primary' => 'Primary Navigation'
+]);
 ```
 
 *If you want more than one menu on your side, add another entry into the `register_nav_menus()` function call separated by a comma.
@@ -37,11 +35,9 @@ Add the code wherever you want the menu to show up. WordPress writes out a `<ul>
 ```html+php
 <nav>
 <?php
-	wp_nav_menu(
-		array(
-			'theme_location' => 'primary'
-		)
-	);
+	wp_nav_menu([
+		'theme_location' => 'primary'
+	]);
 ?>
 </nav>
 ```
@@ -49,13 +45,11 @@ Add the code wherever you want the menu to show up. WordPress writes out a `<ul>
 The only option you have to specify is the `ID` of placeholder you want to display. WordPress likes to make a mess of the HTML, so there are a few other options we should specify to clean it up.
 
 ```php
-wp_nav_menu(
-	array(
-		'theme_location' => 'primary'
-		, 'container' => false
-		, 'menu_class' => ''
-	)
-);
+wp_nav_menu([
+	'theme_location' => 'primary'
+	, 'container' => false
+	, 'menu_class' => ''
+]);
 ```
 
 - `container`—will get rid of the extra, useless `<div>`

@@ -13,24 +13,13 @@
 		<h1 id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php sd(); ?>/images/tater-tots-daycare.png" alt="<?php _e('Tater Tots Daycare'); ?>"></a></h1>
 		<nav role="navigation">
 			<?php
-				wp_nav_menu(array(
+				wp_nav_menu([
 					'theme_location' => 'primary' // The ID from functions.php
 					, 'container' => '' // Delete the extra <div>
 					, 'menu_class' => '' // Delete the extra class on the <ul>
-				));
+				]);
 			?>
 		</nav>
 	</header>
 
 	<div class="content">
-
-
-
-
-
-
-
-
-
-
-

@@ -16,6 +16,4 @@
 	<?php the_content(); ?>
 </article>
 
-<?php
-	get_footer();
-?>
+<?php get_footer(); ?>

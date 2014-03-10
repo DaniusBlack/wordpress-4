@@ -148,9 +148,9 @@ Blog posts can also be displayed on static pages by using more WordPress built-i
 <ol>
 	<?php
 
-	$posts = get_posts(array(
+	$posts = get_posts([
 		'numberposts' => 5
-	));
+	]);
 
 	foreach ($posts as $post) :
 		setup_postdata($post);
@@ -162,7 +162,7 @@ Blog posts can also be displayed on static pages by using more WordPress built-i
 </ol>
 ```
 
-- `get_posts(array())`—the array is a collection of options for filtering the posts, like the number of posts, a specific category, etc. [Codex: get_posts](http://codex.wordpress.org/Template_Tags/get_posts).
+- `get_posts([])`—the array is a collection of options for filtering the posts, like the number of posts, a specific category, etc. [Codex: get_posts](http://codex.wordpress.org/Template_Tags/get_posts).
 
 ## Comments
 
